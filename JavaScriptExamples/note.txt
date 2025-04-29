@@ -1,0 +1,11 @@
+The main difference between getElementById() and querySelector() in JavaScript is
+ their scope. getElementById() is specifically designed to 
+ find an element by its unique ID, while querySelector()
+  is more versatile and can select elements using any 
+  valid CSS selector, including ID,
+ class, tag names, and even attribute selector
+
+ if I want to use the css tags 
+
+ document.querySelector(".highlight"); // gets the first one
+document.querySelectorAll(".highlight"); // gets all matching elements
